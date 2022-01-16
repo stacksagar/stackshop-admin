@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: Poppins;
+  transition: all 0.3s !important;
+  scroll-behavior: smooth;
+  margin: 0px;
+  padding: 0px;
+  font-weight: 400;
+  scrollbar-width: thin;
+  scrollbar-color: #5ea4ff transparent;
+}
+
+/* Scrollbar Design  */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #5ea4ff !important;
+  border-radius: 20px;
+  border: 3px solid transparent;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent !important;
+}
